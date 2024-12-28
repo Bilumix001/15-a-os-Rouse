@@ -25,7 +25,7 @@ const Reproductor = () => {
         <p className="texto">
         Click para reproducir<br />mi canción favorita
         </p>
-        <img src="../../public/lineaMusica.png" alt="" />
+        <img src="/lineaMusica.png" alt="" />
         <div className="controles">
             <span className="material-symbols-outlined boton">
                 skip_previous
@@ -49,7 +49,7 @@ const Reproductor = () => {
             </span>
             </button>
         </div>
-        <audio ref={audioRef} src="../../public/Snowman(MP3_320K).mp3"></audio>
+        <audio ref={audioRef} src="/Snowman(MP3_320K).mp3"></audio>
     </div>
     );
 };

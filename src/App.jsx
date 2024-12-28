@@ -45,34 +45,34 @@ function App() {
       <div className="fondo">
         <img
           className="MarcoRosas izquierda"
-          src="../public/marcoRosa.png"
+          src="/marcoRosa.png"
           alt="Decoración"
         />
         <img
           className="MarcoRosas derecha"
-          src="../public/marcoRosa.png"
+          src="/marcoRosa.png"
           alt="Decoración"
         />
         
         <div className="title">
-          <img className="rombo1" src="../public/rombo.png"/>
+          <img className="rombo1" src="/rombo.png"/>
           <p className="XV">
             MIS XV
             <br />
             AÑOS
           </p>
           
-          <img className="rombo2" src="../public/rombo.png"/>
-          <img className="curvita" src="../public/linea.png"/>
+          <img className="rombo2" src="/rombo.png"/>
+          <img className="curvita" src="/linea.png"/>
           <p className="nombre">
             <section
               ref={(el) => (sectionsRef.current[0] = el)} // Guardamos la referencia de la primera sección
               className="animated" // Clase inicial para animación
             >
               
-              <img className="corazon1" src="../public/corazon.png"/>
+              <img className="corazon1" src="/corazon.png"/>
               Rouse
-              <img className="corazon2" src="../public/corazon.png"/>
+              <img className="corazon2" src="/corazon.png"/>
             </section>
           </p>
         </div>
@@ -88,7 +88,7 @@ function App() {
             ref={(el) => (sectionsRef.current[2] = el)} // Guardamos la referencia de la primera sección
             className="animated" // Clase inicial para animación
           >
-            <img className="img1" src="../public/rosas1.png" alt="" />
+            <img className="img1" src="/rosas1.png" alt="" />
             <p className="title">En compañia de mis padres</p>
             <p className="papas">Eder Cconochuillca Tinta</p>
             <p>y</p>
@@ -98,7 +98,7 @@ function App() {
             ref={(el) => (sectionsRef.current[3] = el)} // Guardamos la referencia de la primera sección
             className="animated" // Clase inicial para animación
           >
-            <img className="img2" src="../public/rosas1.png" alt="" />
+            <img className="img2" src="/rosas1.png" alt="" />
             <p className="title">Y mis padrinos</p>
             <p className="papas">Ciro Yupanqui Fernandez</p>
             <p>y</p>
@@ -133,7 +133,7 @@ function App() {
             ref={(el) => (sectionsRef.current[7] = el)}
             className="animated"
           >
-            <img src="../public/separador.png" alt="" />
+            <img src="/separador.png" alt="" />
           </section>
         </div>
 
@@ -178,7 +178,7 @@ function App() {
             ref={(el) => (sectionsRef.current[10] = el)}
             className="centrar animated"
           >
-            <img src="../public/separador.png" alt="" />
+            <img src="/separador.png" alt="" />
             <div className="icon">
               <CiGift />
             </div>
@@ -231,9 +231,9 @@ EVITAR EL ROJO
         </div>
 
         <div className="final">
-          <img className="img1" src="../public/marcoFinal.png" alt="" />
+          <img className="img1" src="/marcoFinal.png" alt="" />
           Rouse Patricia
-          <img className="img2" src="../public/marcoFinal.png" alt="" />
+          <img className="img2" src="/marcoFinal.png" alt="" />
         </div>
       </div>
     </>
