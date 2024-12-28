@@ -1,4 +1,4 @@
-import Button from "./button";
+import Button from "../Components/Button";
 import { PiChurchThin } from "react-icons/pi";
 import { LiaGlassCheersSolid } from "react-icons/lia";
 import { TbDeviceMobileCheck } from "react-icons/tb";

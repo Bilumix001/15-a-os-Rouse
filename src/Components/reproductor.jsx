@@ -36,7 +36,7 @@ const Reproductor = () => {
                     pause
                 </span>
                 :
-                <span class="material-symbols-outlined boton">
+                <span className="material-symbols-outlined boton">
                     play_arrow
                 </span>}
             </button>
